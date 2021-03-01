@@ -20,6 +20,7 @@ import { FakeDbService } from 'app/fake-db/fake-db.service';
 import { AppComponent } from 'app/app.component';
 import { AppStoreModule } from 'app/store/store.module';
 import { LayoutModule } from 'app/layout/layout.module';
+import { AccountsModule } from './accounts/accounts.module';
 
 const appRoutes: Routes = [
     {
@@ -80,7 +81,8 @@ const appRoutes: Routes = [
 
         // App modules
         LayoutModule,
-        AppStoreModule
+        AppStoreModule,
+        AccountsModule
     ],
     bootstrap   : [
         AppComponent

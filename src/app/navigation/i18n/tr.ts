@@ -2,6 +2,7 @@ export const locale = {
     lang: 'tr',
     data: {
         'NAV': {
+            'ACCOUNTS': 'Accounts',
             'APPLICATIONS': 'Programlar',
             'DASHBOARDS'  : 'Kontrol Paneli',
             'CALENDAR'    : 'Takvim',

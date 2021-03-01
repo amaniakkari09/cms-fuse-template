@@ -9,6 +9,14 @@ export const navigation: FuseNavigation[] = [
         icon     : 'apps',
         children : [
             {
+                id       : 'accounts',
+                title    : 'Accounts',
+                translate: 'NAV.ACCOUNTS',
+                type     : 'item',
+                icon     : 'today',
+                url      : '/accounts'
+            },
+            {
                 id       : 'dashboards',
                 title    : 'Dashboards',
                 translate: 'NAV.DASHBOARDS',
